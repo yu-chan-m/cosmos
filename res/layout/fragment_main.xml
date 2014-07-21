@@ -25,6 +25,6 @@
         android:layout_height="wrap_content"
         android:text="@string/go_button"
         android:background="#808080"
-        android:onClick="star" />
+        android:onClick="goGalaxy" />
 
 </LinearLayout>

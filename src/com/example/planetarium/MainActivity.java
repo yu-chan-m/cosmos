@@ -18,8 +18,10 @@ public class MainActivity extends Activity {
 
 	public static String TAG = "MainActivity";
 	
-	public void star(View view){
+	public void goGalaxy(View view){
 		Log.d(TAG, "star");
+		Intent intent = new Intent(this, Galaxy.class);
+		startActivityForResult(intent, 0);
 	}
 	
 	@Override
